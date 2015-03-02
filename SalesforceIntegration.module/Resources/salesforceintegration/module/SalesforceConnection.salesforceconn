@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmlns:salesforceconnection="http://ns.tibco.com/bw/palette/salesforceconnection" xmi:id="_6jHiwcC8EeSYgOttnOFb_g" name="salesforceintegration.module.SalesforceConnection" type="salesforceconnection:SalesforceConnection">
+  <jndi:description>Connection resource to SFDC - do not forget to update the credentials</jndi:description>
+  <jndi:configuration xsi:type="salesforceconnection:SalesforceConnection" xmi:id="_6jHiwsC8EeSYgOttnOFb_g" wsdlFilePath="/SalesforceResources/partner_32_0.wsdl" serverURL="https://login.salesforce.com/services/Soap/u/32.0">
+    <substitutionBindings xmi:id="_diMUwMC9EeSYgOttnOFb_g" template="userName" propName="/SFDC/username"/>
+    <substitutionBindings xmi:id="_ecPiMMC9EeSYgOttnOFb_g" template="password" propName="/SFDC/password"/>
+  </jndi:configuration>
+</jndi:namedResource>
